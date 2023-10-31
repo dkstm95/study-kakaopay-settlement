@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - SettlementApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>SettlementApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.kakaopay.task.html">com.kakaopay.task</a> &gt; SettlementApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.364s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.364s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:45:54.703 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [SettlementApplicationTests]: using SpringBootContextLoader
+15:45:54.711 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.kakaopay.task.SettlementApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:45:54.711 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.kakaopay.task.SettlementApplicationTests]: SettlementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:45:54.746 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [SettlementApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, WebDriverContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+15:45:54.879 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/Users/SeungIl/Desktop/settlement/build/classes/java/main/com/kakaopay/task/SettlementApplication.class]
+15:45:54.883 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.kakaopay.task.SettlementApplication for test class com.kakaopay.task.SettlementApplicationTests
+15:45:54.991 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.observation.MicrometerObservationRegistryTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: io.micrometer.context.ThreadLocalAccessor. MicrometerObservationRegistryTestExecutionListener requires io.micrometer:micrometer-observation:1.10.8 or higher and io.micrometer:context-propagation:1.0.3 or higher.
+15:45:55.011 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [SettlementApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, WithSecurityContextTestExecutionListener, EventPublishingTestExecutionListener, ReactorContextTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+15:45:55.017 [Test worker] DEBUG org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener -- Before test class: class [SettlementApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.0.12)
+
+2023-10-29T15:45:55.530+09:00  INFO 46443 --- [    Test worker] c.k.task.SettlementApplicationTests      : Starting SettlementApplicationTests using Java 17.0.9 with PID 46443 (started by SeungIl in /Users/SeungIl/Desktop/settlement)
+2023-10-29T15:45:55.532+09:00  INFO 46443 --- [    Test worker] c.k.task.SettlementApplicationTests      : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-10-29T15:45:56.828+09:00  INFO 46443 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:45:57.003+09:00  INFO 46443 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 168 ms. Found 3 JPA repository interfaces.
+2023-10-29T15:45:57.810+09:00  INFO 46443 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-29T15:45:58.005+09:00  INFO 46443 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:1a5bcbbc-9c9c-49dc-ba02-2b1611a2f4d6 user=SA
+2023-10-29T15:45:58.007+09:00  INFO 46443 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-29T15:45:58.079+09:00  INFO 46443 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:45:58.118+09:00  INFO 46443 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-10-29T15:45:58.527+09:00  INFO 46443 --- [    Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: 
+    
+    drop table if exists &quot;room&quot; cascade 
+Hibernate: 
+    
+    drop table if exists &quot;settlement_detail&quot; cascade 
+Hibernate: 
+    
+    drop table if exists &quot;settlement_request&quot; cascade 
+Hibernate: 
+    
+    drop table if exists &quot;user&quot; cascade 
+Hibernate: 
+    
+    create table &quot;room&quot; (
+       &quot;id&quot; bigint generated by default as identity,
+        &quot;created_at&quot; timestamp(6) with time zone,
+        &quot;updated_at&quot; timestamp(6) with time zone,
+        primary key (&quot;id&quot;)
+    )
+Hibernate: 
+    
+    create table &quot;settlement_detail&quot; (
+       &quot;id&quot; bigint generated by default as identity,
+        &quot;created_at&quot; timestamp(6) with time zone,
+        &quot;updated_at&quot; timestamp(6) with time zone,
+        &quot;amount&quot; bigint,
+        &quot;last_remind_at&quot; timestamp(6) with time zone,
+        &quot;receive_user_id&quot; bigint,
+        &quot;settled_at&quot; timestamp(6) with time zone,
+        &quot;settlement_request_id&quot; bigint,
+        &quot;status&quot; varchar(255),
+        primary key (&quot;id&quot;)
+    )
+Hibernate: 
+    
+    create table &quot;settlement_request&quot; (
+       &quot;id&quot; bigint generated by default as identity,
+        &quot;created_at&quot; timestamp(6) with time zone,
+        &quot;updated_at&quot; timestamp(6) with time zone,
+        &quot;request_user_id&quot; bigint,
+        &quot;requested_at&quot; timestamp(6) with time zone,
+        &quot;settled_at&quot; timestamp(6) with time zone,
+        &quot;status&quot; varchar(255),
+        &quot;total_amount&quot; bigint,
+        &quot;total_receiver_count&quot; integer,
+        primary key (&quot;id&quot;)
+    )
+Hibernate: 
+    
+    create table &quot;user&quot; (
+       &quot;id&quot; bigint generated by default as identity,
+        &quot;created_at&quot; timestamp(6) with time zone,
+        &quot;updated_at&quot; timestamp(6) with time zone,
+        &quot;name&quot; varchar(255),
+        &quot;profile_image_url&quot; varchar(255),
+        primary key (&quot;id&quot;)
+    )
+2023-10-29T15:45:59.391+09:00  INFO 46443 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:45:59.398+09:00  INFO 46443 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:46:00.177+09:00  WARN 46443 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:46:00.884+09:00  INFO 46443 --- [    Test worker] c.k.task.SettlementApplicationTests      : Started SettlementApplicationTests in 5.792 seconds (process running for 7.573)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.3</a> at Oct 29, 2023, 3:46:01 PM</p>
+</div>
+</div>
+</body>
+</html>
